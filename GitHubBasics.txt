@@ -31,6 +31,26 @@ git add .=> this says want to add all the files
 git commit -m "message"
 this helps to give commit message 
 
+5 git push origin master
+this used to push the code in to the git hub
+
+6. git config --list 
+used to get all the details
+
+//------------------------------------------------------
+
+pull?
+
+
+7. git pull origin master
+to have the latest changes on my local machine
+
+
+
+
+
+
+
 
 
 
