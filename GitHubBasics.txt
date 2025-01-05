@@ -28,7 +28,8 @@ we get name of the branch and changes that had happened on the files.
 
 git add filename => says that what files should be needed to add to the githup 
 git add .=> this says want to add all the files
-git 
+git commit -m "message"
+this helps to give commit message 
 
 
 
