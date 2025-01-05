@@ -1,0 +1,36 @@
+akhil->local machine--->git local machine ref (own desktop,system)
+                    |
+                    |
+                    |
+                    |
+                    |
+    --------------------------------
+    |  git hub                      |
+    |remote machine                 |
+    |                               |
+    |                               |
+    |_______________________________|
+
+
+github is a cloud repository management
+1. push the code from local machine to remote machine
+pwd =>present working directory
+
+create a repositort in githup 
+use https protocal to link local machine with the remote machine
+
+2.git init 
+
+3.git remote add origin name of the https url
+
+4. gitstatus
+we get name of the branch and changes that had happened on the files.
+
+git add filename => says that what files should be needed to add to the githup 
+git add .=> this says want to add all the files
+git 
+
+
+
+
+

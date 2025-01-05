@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+    <h1>hello</h1>
+    <button id="stop">shop</button>
+    </div>
+    
+</body>
+
+<script>
+
+//    const changeme= setTimeout(() => {
+//         document.querySelector('h1').innerText = 'goodbye';
+//     }, 3000);
+
+// // to stop settimeout befor 3 seconds we use clear time out as
+
+//     const stop = document.querySelector('#stop');
+//     stop.addEventListener('click', () => {
+//         clearTimeout(changeme);
+//     });
+
+//     // setInterval
+
+const stopme= setInterval(()=>{
+   console.log("akhil",new Date());
+    document.querySelector('h1').innerText = new Date();
+},1000);
+
+const stop = document.querySelector('#stop');
+stop.addEventListener('click', () => {
+    clearInterval(stopme);
+});
+
+//how to start again after stoping
+// const start = document.querySelector('#start');
+// start.addEventListener('click', () => {
+//     setInterval(stopme);
+// });
+// // or
+// start.addEventListener('click', () => {
+//     stopme = setInterval(() => {
+//         console.log("akhil", new Date());
+//         document.querySelector('h1').innerText = new Date();
+//     }, 1000);
+// });
+
+
+
+
+
+
+</script>
+</html>
