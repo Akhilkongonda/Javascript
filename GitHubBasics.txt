@@ -31,6 +31,8 @@ git add .=> this says want to add all the files
 git commit -m "message"
 this helps to give commit message 
 
+##some thing has changed 
+
 
 
 
